@@ -20,6 +20,11 @@ import MyCourses from "./component/core/Dashboard/MyCourses"
 import MyProfile from "./component/core/Dashboard/MyProfile"
 import Settings from "./component/core/Dashboard/Settings"
 import VideoDetails from "./component/core/ViewCourse/VideoDetails"
+
+// Pages
+import Home from "./pages/Home"
+import Login from "./pages/Login"
+import Signup from "./pages/Signup"
 import About from "./pages/About"
 import Catalog from "./pages/Catalog"
 import Contact from "./pages/Contact"
@@ -27,13 +32,11 @@ import CourseDetails from "./pages/CourseDetails"
 import Dashboard from "./pages/Dashboard"
 import Error from "./pages/Error"
 import ForgotPassword from "./pages/ForgotPassword"
-// Pages
-import Home from "./pages/Home"
-import Login from "./pages/Login"
-import Signup from "./pages/Signup"
 import UpdatePassword from "./pages/UpdatePassword"
 import VerifyEmail from "./pages/VerifyEmail"
 import ViewCourse from "./pages/ViewCourse"
+
+
 import { getUserDetails } from "./services/operations/profileAPI"
 import { ACCOUNT_TYPE } from "./utils/constants"
 
